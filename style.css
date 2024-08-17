@@ -344,3 +344,88 @@ menu ul li.active {
     margin-left: 8px;
 }
 
+#legalInfo {
+    background-color: #fff;
+    border-bottom: 1px solid #cccdde;
+    color: #102b4e;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.75px;
+    padding: 28px;
+
+    cursor: pointer;
+    text-align: center;
+    font-family: FordAntenna, Ford Antenna, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#legalInfo-arrow{
+width: 1440px;
+padding: 40px 95px;
+font-size: .875rem;
+letter-spacing: 1px;
+font-family: FordAntenna, Ford Antenna, Arial, Helvetica, sans-serif;
+margin: auto;
+color: #334358;
+line-height: 24px;
+font-weight: 400;
+}
+
+.hidden{
+    display: none;
+}
+
+#indice{
+    display: flex;
+    width: 1440px;
+    margin: auto;
+    justify-content: space-between;
+    padding-block: 40px;
+    background-color: #F9F9F9;
+}
+#indice div{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 40px;
+
+}
+
+#indice li{
+    display: flex;
+    font-family: FordAntenna, Ford Antenna, Arial, Helvetica, sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .16px;
+    line-height: 21px;
+    color: #334358;
+    margin-bottom: 11.4px;
+    margin-top: 15px;
+}
+#indice p{
+    font-family: FordAntenna, Ford Antenna, Arial, Helvetica, sans-serif !important;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .16px;
+    line-height: 21px;
+    color: #00095b;
+    margin-bottom: 11.4px;
+    margin-top: 15px;
+}
+
+footer{
+    background-color: #00095b;
+    width: 1440px ;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+footer svg{
+    height: 24px;
+    width: 23px;
+    cursor: pointer;
+}
