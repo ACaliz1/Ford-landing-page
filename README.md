@@ -46,7 +46,11 @@ To run this project locally:
 
 ## Purpose
 
-This project was developed solely for the purpose of practicing and improving my skills in web development. As a student of Web Application Development (DAW), this project serves as a hands-on exercise in HTML, CSS, and JavaScript.
+This project was developed solely for the purpose of practicing and improving my skills in web development. As a student of Web Application Development (DAW), this project serves as a hands-on exercise in HTML, CSS, and JavaScript.ç
+
+## Disclaimer
+
+This project is a personal exercise created solely for the purpose of practicing web development skills. It is not affiliated with or endorsed by Ford Motor Company. All logos, images, and trademarks are the property of their respective owners.
 
 ## Contributing
 
