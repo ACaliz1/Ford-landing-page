@@ -362,23 +362,24 @@ menu ul li.active {
     justify-content: center;
     align-items: center;
 }
-#legalInfo-arrow{
-width: 1440px;
-padding: 40px 95px;
-font-size: .875rem;
-letter-spacing: 1px;
-font-family: FordAntenna, Ford Antenna, Arial, Helvetica, sans-serif;
-margin: auto;
-color: #334358;
-line-height: 24px;
-font-weight: 400;
+
+#legalInfo-arrow {
+    width: 1440px;
+    padding: 40px 95px;
+    font-size: .875rem;
+    letter-spacing: 1px;
+    font-family: FordAntenna, Ford Antenna, Arial, Helvetica, sans-serif;
+    margin: auto;
+    color: #334358;
+    line-height: 24px;
+    font-weight: 400;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
-#indice{
+#indice {
     display: flex;
     width: 1440px;
     margin: auto;
@@ -386,25 +387,30 @@ font-weight: 400;
     padding-block: 40px;
     background-color: #F9F9F9;
 }
-#indice div{
+
+#indice div {
     display: flex;
     flex-direction: column;
     padding-inline: 40px;
 
 }
 
-#indice li{
+#indice li {
     display: flex;
     font-family: FordAntenna, Ford Antenna, Arial, Helvetica, sans-serif !important;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
     letter-spacing: .16px;
-    line-height: 21px;
     color: #334358;
     margin-bottom: 11.4px;
     margin-top: 15px;
 }
-#indice p{
+
+#indice li:hover {
+    text-decoration: underline;
+}
+
+#indice p {
     font-family: FordAntenna, Ford Antenna, Arial, Helvetica, sans-serif !important;
     font-size: 18px;
     font-weight: 600;
@@ -415,17 +421,80 @@ font-weight: 400;
     margin-top: 15px;
 }
 
-footer{
+footer {
     background-color: #00095b;
-    width: 1440px ;
+    width: 1440px;
     height: 85px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: auto;
+    padding-inline: 90px;
 }
-footer svg{
-    height: 24px;
-    width: 23px;
+
+footer svg {
+    height: 28px;
+    width: 26px;
     cursor: pointer;
+
+}
+
+#footer-feedback {
+    display: flex;
+    align-items: center;
+    font-family: FordAntenna, Ford Antenna, Arial, Helvetica, sans-serif;
+    color: #00095b;
+    font-size: 12px;
+    font-size: .75rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .14px;
+    line-height: 21px;
+    padding-left: 250px;
+    padding-block: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    width: 450px;
+    height: auto;
+}
+
+#footer-feedback svg {
+    padding-right: 10px;
+    height: 24px;
+    width: auto;
+}
+
+#footer-final {
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-final p {
+    font-family: FordAntenna, Ford Antenna, Arial, Helvetica, sans-serif;
+    font-size: .75rem;
+    font-style: normal;
+    line-height: 27px;
+    font-weight: 400;
+    color: #00095b;
+}
+
+#footer-final ul {
+    display: flex;
+    font-family: FordAntenna, Ford Antenna, Arial, Helvetica, sans-serif;
+    font-size: .85rem;
+    font-style: normal;
+    line-height: 27px;
+    font-weight: 400;
+    color: #00095b;
+}
+
+#footer-final li:hover {
+    text-decoration: underline;
+}
+
+#footer-final img {
+    margin-left: 40px;
 }
