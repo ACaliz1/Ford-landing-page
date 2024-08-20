@@ -33,7 +33,7 @@ To run this project locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/Maquetacion-ford.git
+   git clone https://github.com/ACaliz1/Maquetacion-ford.git
    ```
 
 2. Navigate to the project directory:
