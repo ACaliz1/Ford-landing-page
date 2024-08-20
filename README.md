@@ -56,9 +56,6 @@ This project is a personal exercise created solely for the purpose of practicing
 
 As this project is part of my learning journey, contributions are not expected. However, if you have any suggestions or feedback, feel free to fork the repository and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
